@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+
+    class alia
+    {
+        public void  asss(string ali)
+        {
+           // Console.WriteLine(ali );
+            for (int i = 0; i < 10;i++ )
+            {
+                Console.WriteLine(ali );
+                    
+            }
+        }
+        public void fsd(string add, int n)
+        {
+            // Console.WriteLine(ali );
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(add );
+
+            }
+        }
+
+    }
+   
+    class Program
+    {
+        static void  Main(string[] args)
+        {
+            
+            alia a = new alia();
+            Console.WriteLine("inter text");
+
+            string oli = Console.ReadLine();
+            a.asss(oli);
+            Console.WriteLine("inter text");
+
+            string aaa = Console.ReadLine();
+            Console.WriteLine("inter nuber");
+
+            int aaa1 = Convert.ToInt32(Console.ReadLine());
+            a.fsd(aaa, aaa1);
+
+            
+            }
+
+        }
+    }
